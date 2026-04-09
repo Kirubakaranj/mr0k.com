@@ -572,6 +572,18 @@
       padding: 0.28rem 0.7rem;
       border-radius: 20px;
       transition: color 0.25s, border-color 0.25s, background 0.25s;
+      text-decoration: none;
+      display: inline-block;
+      cursor: default;
+    }
+    a.skill-tag {
+      cursor: pointer;
+    }
+    a.skill-tag:hover {
+      color: var(--gold);
+      border-color: rgba(201,169,110,0.5);
+      background: rgba(201,169,110,0.1);
+      text-decoration: none;
     }
     .skill-card:hover .skill-tag {
       color: var(--gold-light);
@@ -1077,7 +1089,7 @@
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-grid" aria-hidden="true"></div>
 
-    <div class="hero-tag">Security Engineer · Dublin, Ireland</div>
+    <div class="hero-tag">Senior Security Engineer · Dublin, Ireland</div>
 
     <h1 class="hero-name">
       Kirubakaran<br><em>Jayakumar</em>
@@ -1131,7 +1143,7 @@
             combining red and blue team perspectives to build detection strategies that actually hold up in the real world.
           </p>
           <p>
-            Currently at <strong>Nitro</strong> as a Security Engineer, I lead threat detection engineering,
+            Currently at <strong>Nitro</strong> as a Senior Security Engineer, I lead threat detection engineering,
             SIEM operations, and security programme initiatives, building out detection maturity
             and driving measurable risk reduction.
           </p>
@@ -1158,7 +1170,7 @@
             <div class="detail-icon">🏢</div>
             <div>
               <div class="detail-label">Current Role</div>
-              <div class="detail-value">Security Engineer · Nitro</div>
+              <div class="detail-value">Senior Security Engineer · Nitro</div>
             </div>
           </div>
           <div class="about-detail-item">
@@ -1216,12 +1228,12 @@
           </div>
           <div class="skill-card-title">SIEM & Monitoring</div>
           <div class="skill-tags">
-            <span class="skill-tag">Datadog</span>
-            <span class="skill-tag">AlienVault USM</span>
-            <span class="skill-tag">Wazuh</span>
-            <span class="skill-tag">Microsoft Sentinel</span>
-            <span class="skill-tag">Power BI</span>
-            <span class="skill-tag">Elastic Stack</span>
+            <a class="skill-tag" href="https://www.datadoghq.com/" target="_blank" rel="noopener">Datadog</a>
+            <a class="skill-tag" href="https://cybersecurity.att.com/products/ossim" target="_blank" rel="noopener">AlienVault USM</a>
+            <a class="skill-tag" href="https://wazuh.com/" target="_blank" rel="noopener">Wazuh</a>
+            <a class="skill-tag" href="https://azure.microsoft.com/en-us/products/microsoft-sentinel" target="_blank" rel="noopener">Microsoft Sentinel</a>
+            <a class="skill-tag" href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" rel="noopener">Power BI</a>
+            <a class="skill-tag" href="https://www.elastic.co/elastic-stack" target="_blank" rel="noopener">Elastic Stack</a>
           </div>
         </div>
 
@@ -1232,13 +1244,13 @@
           </div>
           <div class="skill-card-title">Threat Detection & Hunting</div>
           <div class="skill-tags">
-            <span class="skill-tag">MITRE ATT&CK</span>
-            <span class="skill-tag">Sigma Rules</span>
-            <span class="skill-tag">YARA</span>
-            <span class="skill-tag">Threat Intel</span>
-            <span class="skill-tag">MISP</span>
-            <span class="skill-tag">OpenCTI</span>
-            <span class="skill-tag">Recorded Future</span>
+            <a class="skill-tag" href="https://attack.mitre.org/" target="_blank" rel="noopener">MITRE ATT&CK</a>
+            <a class="skill-tag" href="https://sigmahq.io/" target="_blank" rel="noopener">Sigma Rules</a>
+            <a class="skill-tag" href="https://virustotal.github.io/yara/" target="_blank" rel="noopener">YARA</a>
+            <a class="skill-tag" href="https://www.mitre.org/focus-areas/cybersecurity/threat-informed-defense" target="_blank" rel="noopener">Threat Intel</a>
+            <a class="skill-tag" href="https://www.misp-project.org/" target="_blank" rel="noopener">MISP</a>
+            <a class="skill-tag" href="https://www.opencti.io/" target="_blank" rel="noopener">OpenCTI</a>
+            <a class="skill-tag" href="https://www.recordedfuture.com/" target="_blank" rel="noopener">Recorded Future</a>
           </div>
         </div>
 
@@ -1249,12 +1261,12 @@
           </div>
           <div class="skill-card-title">Incident Response & IR</div>
           <div class="skill-tags">
-            <span class="skill-tag">IR Playbooks</span>
-            <span class="skill-tag">Forensics</span>
-            <span class="skill-tag">CrowdStrike</span>
-            <span class="skill-tag">Microsoft Defender</span>
-            <span class="skill-tag">Trellix HX</span>
-            <span class="skill-tag">AnyRun</span>
+            <a class="skill-tag" href="https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf" target="_blank" rel="noopener">IR Playbooks</a>
+            <a class="skill-tag" href="https://www.sans.org/digital-forensics-incident-response/" target="_blank" rel="noopener">Forensics</a>
+            <a class="skill-tag" href="https://www.crowdstrike.com/" target="_blank" rel="noopener">CrowdStrike</a>
+            <a class="skill-tag" href="https://www.microsoft.com/en-us/security/business/microsoft-defender" target="_blank" rel="noopener">Microsoft Defender</a>
+            <a class="skill-tag" href="https://www.trellix.com/products/endpoint-security/hx-series/" target="_blank" rel="noopener">Trellix HX</a>
+            <a class="skill-tag" href="https://any.run/" target="_blank" rel="noopener">AnyRun</a>
           </div>
         </div>
 
@@ -1265,12 +1277,12 @@
           </div>
           <div class="skill-card-title">Penetration Testing</div>
           <div class="skill-tags">
-            <span class="skill-tag">VAPT</span>
-            <span class="skill-tag">Web App Security</span>
-            <span class="skill-tag">Mobile SAST/DAST</span>
-            <span class="skill-tag">Network Assessment</span>
-            <span class="skill-tag">OWASP</span>
-            <span class="skill-tag">OSSTMM</span>
+            <a class="skill-tag" href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank" rel="noopener">VAPT</a>
+            <a class="skill-tag" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">Web App Security</a>
+            <a class="skill-tag" href="https://owasp.org/www-project-mobile-security-testing-guide/" target="_blank" rel="noopener">Mobile SAST/DAST</a>
+            <a class="skill-tag" href="https://www.sans.org/blog/network-penetration-testing/" target="_blank" rel="noopener">Network Assessment</a>
+            <a class="skill-tag" href="https://owasp.org/" target="_blank" rel="noopener">OWASP</a>
+            <a class="skill-tag" href="https://www.isecom.org/OSSTMM.3.pdf" target="_blank" rel="noopener">OSSTMM</a>
           </div>
         </div>
 
@@ -1281,12 +1293,12 @@
           </div>
           <div class="skill-card-title">Cloud & Infrastructure</div>
           <div class="skill-tags">
-            <span class="skill-tag">AWS</span>
-            <span class="skill-tag">Kubernetes</span>
-            <span class="skill-tag">Wiz</span>
-            <span class="skill-tag">Axonius</span>
-            <span class="skill-tag">CrowdStrike Cloud</span>
-            <span class="skill-tag">Docker</span>
+            <a class="skill-tag" href="https://aws.amazon.com/security/" target="_blank" rel="noopener">AWS</a>
+            <a class="skill-tag" href="https://kubernetes.io/" target="_blank" rel="noopener">Kubernetes</a>
+            <a class="skill-tag" href="https://www.wiz.io/" target="_blank" rel="noopener">Wiz</a>
+            <a class="skill-tag" href="https://www.axonius.com/" target="_blank" rel="noopener">Axonius</a>
+            <a class="skill-tag" href="https://www.crowdstrike.com/platform/cloud-security/" target="_blank" rel="noopener">CrowdStrike Cloud</a>
+            <a class="skill-tag" href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a>
           </div>
         </div>
 
@@ -1297,12 +1309,12 @@
           </div>
           <div class="skill-card-title">Email & Network Security</div>
           <div class="skill-tags">
-            <span class="skill-tag">Microsoft ATP</span>
-            <span class="skill-tag">Cofense Vision</span>
-            <span class="skill-tag">Cofense Triage</span>
-            <span class="skill-tag">Checkpoint FW</span>
-            <span class="skill-tag">Forcepoint Proxy</span>
-            <span class="skill-tag">Trellix IPS</span>
+            <a class="skill-tag" href="https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365" target="_blank" rel="noopener">Microsoft ATP</a>
+            <a class="skill-tag" href="https://cofense.com/product-services/vision/" target="_blank" rel="noopener">Cofense Vision</a>
+            <a class="skill-tag" href="https://cofense.com/product-services/triage/" target="_blank" rel="noopener">Cofense Triage</a>
+            <a class="skill-tag" href="https://www.checkpoint.com/quantum/next-generation-firewall/" target="_blank" rel="noopener">Checkpoint FW</a>
+            <a class="skill-tag" href="https://www.forcepoint.com/product/secure-web-gateway" target="_blank" rel="noopener">Forcepoint Proxy</a>
+            <a class="skill-tag" href="https://www.trellix.com/products/intrusion-prevention-system/" target="_blank" rel="noopener">Trellix IPS</a>
           </div>
         </div>
 
@@ -1313,12 +1325,12 @@
           </div>
           <div class="skill-card-title">Automation & Scripting</div>
           <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">Splunk SPL</span>
-            <span class="skill-tag">PowerShell</span>
-            <span class="skill-tag">SOAR</span>
-            <span class="skill-tag">REST APIs</span>
-            <span class="skill-tag">KQL</span>
+            <a class="skill-tag" href="https://www.python.org/" target="_blank" rel="noopener">Python</a>
+            <a class="skill-tag" href="https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/WhatsInThisManual" target="_blank" rel="noopener">Splunk SPL</a>
+            <a class="skill-tag" href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noopener">PowerShell</a>
+            <a class="skill-tag" href="https://www.paloaltonetworks.com/cortex/cortex-xsoar" target="_blank" rel="noopener">SOAR</a>
+            <a class="skill-tag" href="https://restfulapi.net/" target="_blank" rel="noopener">REST APIs</a>
+            <a class="skill-tag" href="https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/" target="_blank" rel="noopener">KQL</a>
           </div>
         </div>
 
@@ -1329,12 +1341,13 @@
           </div>
           <div class="skill-card-title">Compliance & GRC</div>
           <div class="skill-tags">
-            <span class="skill-tag">ISO 27001</span>
-            <span class="skill-tag">PCI DSS</span>
-            <span class="skill-tag">SOC 2</span>
-            <span class="skill-tag">DORA</span>
-            <span class="skill-tag">HIPAA</span>
-            <span class="skill-tag">NIST CSF</span>
+            <a class="skill-tag" href="https://www.iso.org/standard/27001" target="_blank" rel="noopener">ISO 27001</a>
+            <a class="skill-tag" href="https://www.pcisecuritystandards.org/" target="_blank" rel="noopener">PCI DSS</a>
+            <a class="skill-tag" href="https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2" target="_blank" rel="noopener">SOC 2</a>
+            <a class="skill-tag" href="https://www.digital-operational-resilience-act.com/" target="_blank" rel="noopener">DORA</a>
+            <a class="skill-tag" href="https://www.hhs.gov/hipaa/index.html" target="_blank" rel="noopener">HIPAA</a>
+            <a class="skill-tag" href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener">NIST CSF</a>
+            <a class="skill-tag" href="https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation" target="_blank" rel="noopener">QTSP</a>
           </div>
         </div>
 
@@ -1711,7 +1724,7 @@
   <!-- ============================================================ FOOTER -->
   <footer>
     <div class="footer-name">Kirubakaran <span>Jayakumar</span></div>
-    <div class="footer-copy">© 2026 · Security Engineer · Dublin, Ireland</div>
+    <div class="footer-copy">© 2026 · Senior Security Engineer · Dublin, Ireland</div>
   </footer>
 
   <!-- ============================================================ JS -->
